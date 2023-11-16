@@ -45,7 +45,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px 45px 24px;
+    padding: 16px 24px 50px 24px;
     flex-wrap: wrap;
     gap: 10px;
     flex-shrink 1;
@@ -54,25 +54,26 @@ li {
 .hero-container {
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
-    padding: 24px;
+    padding: 24px 24px 40px 24px;
 }
 
 .hero-text-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 50%;
+    width: 35%;
 }
 
 .hero-image-container {
     display: flex;
     align-self: center;
     justify-self: center;
-    width: 50%;
+    width: 35%;
+    padding-left: 15px;
 }
 
 .subtext {
@@ -102,10 +103,10 @@ li {
     font-weight: bold;
     display: flex;
     align-self: center;
-    border-radius: 30%;
+    border-radius: 25%;
     border: solid 1px #3882F6; 
-    width: 80px;
-    height: 40px;
+    width: 65px;
+    height: 35px;
     text-align: center;
 }
 
@@ -125,6 +126,8 @@ h3 {
     font-size: 32px;
     color: #1F2937;
     font-weight: extra-bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -133,6 +136,7 @@ h3 {
     align-items: center;
     justify-content: center;
     gap: 25px;
+    padding-bottom: 35px;
 }
 
 .box {
@@ -165,6 +169,40 @@ h3 {
 }
 
 
+/* quote section styling */
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0%;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    padding: 50px;
+    width: 55%;
+    flex-wrap: wrap;
+}
+
+
+figcaption {
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: right;
+    color: #1F2937;
+    display: flex;
+    padding: 10px;
+    text-align: right;
+    margin-left: auto;
+}
 
 
 
