@@ -1,17 +1,27 @@
 /* styles.css */
 
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* header styling */
+
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 5px 200px;
+    justify-content: space-around;
     background-color: #1F2937;
     align-items: center;
+
 }
 
 .logo {
-    font-size: 22px;
+    font-size: 24px;
     color: #F9F4F8;
-    font-family: Verdana, sans-serif;
 }
 
 ul {
@@ -22,8 +32,51 @@ ul {
 }
 
 li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* hero styling */
+
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    padding: 0 24px 24px 24px;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+
+
+.heading {
+    font-size: 35px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    margin-bottom: -5px;
+}
+
+.subtext {
     font-size: 15px;
     color: #E5E7EB;
-    font-family: Verdana, sans-serif;
 }
+
+.button {
+    background-color: #3882F6;
+    padding: 8px;
+    color: #F9FAF8;
+    font-weight: bold;
+    display: flex;
+    align-self: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
 
