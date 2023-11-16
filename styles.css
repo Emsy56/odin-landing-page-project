@@ -1,2 +1,29 @@
 /* styles.css */
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 200px;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    color: #F9F4F8;
+    font-family: Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    font-size: 15px;
+    color: #E5E7EB;
+    font-family: Verdana, sans-serif;
+}
+
