@@ -16,6 +16,7 @@ body {
     justify-content: space-around;
     background-color: #1F2937;
     align-items: center;
+    gap: 350px;
 
 }
 
@@ -43,10 +44,44 @@ li {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 0 24px 24px 24px;
     justify-content: center;
-    gap: 8px;
+    padding: 16px 24px 45px 24px;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-shrink 1;
 }
+
+.hero-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 24px;
+}
+
+.hero-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.hero-image-container {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+}
+
+.subtext {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 
 
 
