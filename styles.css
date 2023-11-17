@@ -103,11 +103,11 @@ li {
     font-weight: bold;
     display: flex;
     align-self: center;
-    border-radius: 25%;
+    border-radius: 5px;
     border: solid 1px #3882F6; 
-    width: 65px;
-    height: 35px;
     text-align: center;
+    font-size: 15px;
+    padding: 8px 25px;
 }
 
 img {
@@ -209,7 +209,7 @@ figcaption {
 .call-to-action-container {
     width: 100%;
     display: flex;
-    padding: 50px;
+    padding: 70px 50px;
     align-items: center;
     justify-content: center;
 }
@@ -221,10 +221,10 @@ figcaption {
     border: solid 2px #3882F6;
     display: flex;
     padding: 10px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
 h4 {
@@ -270,4 +270,19 @@ h4 {
 
 .cta-text {
     margin-left: auto;
+}
+
+/* footer styling */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    text-align: center;
 }
